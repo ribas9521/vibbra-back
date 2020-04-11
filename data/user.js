@@ -4,7 +4,7 @@ module.exports = {
     name: 'Vibbraneo Vibbreiro',
     email: 'vibbraneo@gmail.com',
     login: 'vibbraneo',
-    password: 'vibbraneo',
+    // password: 'vibbraneo',
     location: {
       lat: -19.8157,
       lng: -43.9542,

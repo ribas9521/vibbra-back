@@ -16,17 +16,17 @@ app.get('/', (req, res) => {
 
 app.post('/authenticate', (req, res) => {
   const { login, password } = req.body;
-
-  if (login === 'vibbraneo' && password === 'vibbraneo')
-    return res.status(200).json({ user });
-  else return res.status(401).json({});
+  setTimeout(() => {
+    if (login === 'vibbraneo' && password === 'vibbraneo')
+      return res.status(200).json(user);
+    else return res.status(401).json({});
+  }, 2000);
 });
 
 app.post('/authenticate/sso', (req, res) => {
-  const { login, app_token } = req.body;
+  const { app_token } = req.body;
 
-  if (login === 'vibbraneo' && app_token === 'token')
-    return res.status(200).json({ user });
+  if (app_token === 'token') return res.status(200).json(user);
   else return res.status(401).json({});
 });
 
@@ -35,6 +35,10 @@ app.post('/deal/search', (req, res) => {
 });
 
 app.get('/deal/featured', (req, res) => {
+  return res.status(200).json(featured);
+});
+
+app.get('/deal/:id', (req, res) => {
   return res.status(200).json(featured);
 });
 
