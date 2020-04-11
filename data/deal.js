@@ -20,7 +20,7 @@ module.exports = [
     photos: [
       {
         src:
-          'https://img2.gratispng.com/20180607/czk/kisspng-macbook-pro-13-inch-laptop-macbook-air-display-table-5b19b9d373c2a6.1851984215284126274742.jpg',
+          'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16touch-space-gallery1-201911?wid=4000&hei=3072&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1573165109376',
       },
     ],
   },
@@ -91,8 +91,7 @@ module.exports = [
     },
     photos: [
       {
-        src:
-          'https://cdn.iset.io/assets/37352/produtos/746/thumb_550-550-perifericos-746-194091.jpg',
+        src: 'https://cdn.trendhunterstatic.com/thumbs/razer-ouroboros.jpeg',
       },
     ],
   },
@@ -171,7 +170,7 @@ module.exports = [
   {
     type: 'venda',
     value: 3680,
-    description: `Placa de Vídeo Gigabyte AMD Radeon RX 570 Gaming, 4GB, GDDR5`,
+    description: `Iphone 9`,
     trade_for: '',
     location: {
       lat: -19.8157,
@@ -213,6 +212,30 @@ module.exports = [
       {
         src:
           'https://images6.kabum.com.br/produtos/fotos/109806/placa-de-video-gigabyte-amd-radeon-rx-570-gaming-4gb-gddr5-rev-2-0-gv-rx570gaming-4gd_1580410682_gg.jpg',
+      },
+    ],
+  },
+  {
+    type: 'venda',
+    value: 941.06,
+    description: `SSD 1240 GB`,
+    trade_for: '',
+    location: {
+      lat: -19.8157,
+      lng: -43.9542,
+      address: 'Praça Sete de Setembro',
+      city: 'Belo Horizonte',
+      state: 'MG',
+      zip_code: 30130010,
+    },
+    urgency: {
+      type: 'baixa',
+      limit_date: new Date(),
+    },
+    photos: [
+      {
+        src:
+          'https://images8.kabum.com.br/produtos/fotos/85198/85198_index_gg.jpg',
       },
     ],
   },
