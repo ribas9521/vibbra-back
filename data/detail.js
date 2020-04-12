@@ -1,4 +1,5 @@
 module.exports = {
+  user_id: 1,
   type: 'venda',
   value: 10999,
   description: 'Surface Studio',
@@ -18,7 +19,15 @@ module.exports = {
   photos: [
     {
       src:
-        'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16touch-space-gallery1-201911?wid=4000&hei=3072&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1573165109376',
+        'https://raw.githubusercontent.com/ribas9521/vibbra-back/master/img/product/1.jpg',
+    },
+    {
+      src:
+        'https://raw.githubusercontent.com/ribas9521/vibbra-back/master/img/product/2.jpg',
+    },
+    {
+      src:
+        'https://raw.githubusercontent.com/ribas9521/vibbra-back/master/img/product/3.jpg',
     },
   ],
 };

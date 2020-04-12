@@ -1,6 +1,7 @@
 module.exports = {
   token: 'token',
   user: {
+    id: 1,
     name: 'Vibbraneo Vibbreiro',
     email: 'vibbraneo@gmail.com',
     login: 'vibbraneo',

@@ -7,7 +7,9 @@ app.use(bodyParser.json());
 app.use(cors());
 const user = require('./data/user');
 const deal = require('./data/deal');
+const detail = require('./data/detail');
 const featured = require('./data/featured');
+const message = require('./data/message');
 
 app.set('port', process.env.PORT || 3100);
 app.get('/', (req, res) => {
@@ -39,7 +41,11 @@ app.get('/deal/featured', (req, res) => {
 });
 
 app.get('/deal/:id', (req, res) => {
-  return res.status(200).json(featured);
+  return res.status(200).json(detail);
+});
+app.get('/deal/:id/message', (req, res) => {
+  console.log('ok');
+  return res.status(200).json(message);
 });
 
 app.listen(app.get('port'), () => {
